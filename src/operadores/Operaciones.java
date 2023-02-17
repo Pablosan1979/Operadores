@@ -255,7 +255,7 @@ public class Operaciones extends javax.swing.JFrame {
 
         Num1 = Integer.parseInt(txtNum01.getText());
         Num2 = Integer.parseInt(txtNum02.getText());
-        if (Num2>=0){
+        if (Num2<=0){
         txtTotal.setText("El segundo numero debe ser mayor a cero(0)");
         }else{
         Total = Num1 / Num2;
