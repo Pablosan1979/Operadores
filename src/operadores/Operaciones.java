@@ -221,7 +221,7 @@ public class Operaciones extends javax.swing.JFrame {
         if (Total < 0) {
             Total1 = (-1) * Total;
             raiz1 = Math.sqrt(Total1);
-            txtTotal.setText("-" + raiz1 + "i");
+            txtTotal.setText( raiz1 + "i");
         } else {
             raiz = Math.sqrt(Total);
             txtTotal.setText(String.valueOf(raiz));
